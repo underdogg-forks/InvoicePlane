@@ -21,7 +21,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('dashboard.index')
-            ->with('widgets', DashboardWidgets::listsByOrder());
+		//->with('widgets', DashboardWidgets::listsByOrder()
+		return view('dashboard.index');
     }
 }
