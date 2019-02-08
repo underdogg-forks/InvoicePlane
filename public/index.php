@@ -12,8 +12,8 @@
  * Based on FusionInvoice by Jesse Terry (FusionInvoice, LLC)
  */
 
-if (version_compare(PHP_VERSION, '7.0.0', '<')) {
-    die('InvoicePlane requires PHP 7.0.0 or higher. Please upgrade your PHP version to use InvoicePlane.');
+if (version_compare(PHP_VERSION, '7.1.3', '<')) {
+    die('InvoicePlane requires PHP 7.1.3 or higher. Please upgrade your PHP version to use InvoicePlane.');
 }
 
 
@@ -31,7 +31,7 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ require __DIR__ . '/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__ . '/bootstrap/app.php';
+$app = require_once __DIR__ . '/../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
