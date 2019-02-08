@@ -1,4 +1,5 @@
 <div class="sidebar">
+    <button class="sidebar-minimizer brand-minimizer" type="button"></button>
     <nav class="sidebar-nav">
         <ul class="nav">
             @if (isset($displaySearch) and $displaySearch == true)
